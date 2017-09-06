@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>AJAX GitHub API example</title>
+        <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+        <link href="index.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+      <main>
+        <h1>Search Youtube</h1>
+          <form id="search-term">
+          Entry:
+         <br>
+        <input id="query" type="text">
+        <br>
+     <input type="submit" value="Submit">
+      </form>
+  <div id="search-results">
+  </div>
+      </main>
+      <script src="index.js"></script>
+      <script src="https://apis.google.com/js/api.js?onload = init"></script>
+
+    </body>
+</html>
