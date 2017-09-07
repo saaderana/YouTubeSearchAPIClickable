@@ -29,7 +29,7 @@ function showResults(results) {
         var vidId = value.id.videoId;
         html += '<p>' + title + '</p>';
 
-        html += `<a href = "https://www.youtube.com/watch?v= ${vidId}" target = "_blank"><img src = ${thumbnail}></a> `;
+        html += `<a href = "https://www.youtube.com/watch?v=${vidId}" target = "_blank"><img src = ${thumbnail}></a> `;
     });
 
     $('#search-results').html(html);
