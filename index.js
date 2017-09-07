@@ -27,9 +27,10 @@ function showResults(results) {
         var title = value.snippet.title;
         var thumbnail = value.snippet.thumbnails.default.url;
         var vidId = value.id.videoId;
+        var altDescrip = value.snippet.description;
         html += '<p>' + title + '</p>';
 
-        html += `<a href = "https://www.youtube.com/watch?v=${vidId}" target = "_blank"><img src = ${thumbnail}></a> `;
+        html += `<a href = "https://www.youtube.com/watch?v=${vidId}" target = "_blank"><img src = ${thumbnail} alt = ${altDescrip}></a> `;
     });
 
     $('#search-results').html(html);
