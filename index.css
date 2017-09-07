@@ -1,3 +1,63 @@
 body {
   padding-top: 50px;
 }
+
+ h1 {
+            color: rgba(3, 3, 3, 0.75);
+            font-size: 1.8em;
+            text-transform: capitalize;
+            letter-spacing: 1px;
+            text-shadow: 2px 2px 4px #D5D5CE;
+        }
+        
+        
+        #query {
+            width: 28em;
+            height: 3em;
+            box-shadow: 0px 8px 8px -6px #DF9685;
+            border: 1px solid rgba(242, 25, 8, 0.66);
+            border-radius: 3px;
+            outline: none;
+            font-size: 1em;
+            padding: 0 10px;
+        }
+        
+        
+#submit {
+            width: 9em;
+            height: 2.7em;
+            background-color: rgba(240, 20, 20, 0.83);
+            border: 1px solid rgba(59, 65, 49, 0.7);
+            border-radius: 25px;
+            box-shadow: 0 8px 8px -6px #AB8C8C;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 16px;
+            color: #F9F4F4;
+            margin-left: 0.6em;
+            cursor: pointer;
+            outline: none;
+        }
+        
+        
+          @media only screen and (max-width: 914px) {
+           #submit {
+                margin-top: 1em;
+            }
+             #query {
+                width: 22em;
+            }
+          }  
+           @media only screen and (max-width: 480px) {
+              #query {
+                width: 20em;
+            }
+            #submit {
+                width: 7em;
+                height: 2.3em;
+                margin-top: 1em;
+            }
+           }
+          
+          
